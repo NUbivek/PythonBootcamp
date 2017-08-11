@@ -2,9 +2,9 @@
 
 def multiplication_table():
 
-    for combinations_of_options in range(1,11):
-        outputfile = combinations_of_options*combinations_of_options
-        print (outputfile)
+    for i in range(1,11):
+        for j in range(1,11):
+            print (i*j, "\t", end='')
+        print()
 
-        for
-multiplication_table()ca
+multiplication_table()
